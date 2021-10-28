@@ -1,4 +1,4 @@
-;/*
+/*
 	This program demonstrates how to scan and print strings.
 */
 #include<stdio.h>
