@@ -18,7 +18,7 @@ int main(void) {
     // fgets will read input from stdin until you type ENTER, and then append '\0' at the
     // end of your string to indicate it has ended
     fgets(s1, MAX_LEN, stdin);
-	s1[strlen(s1) - 1] = '\0'; // gets rid of the extra '\n' at the end
+    s1[strlen(s1) - 1] = '\0'; // gets rid of the extra '\n' at the end
 
 
     // =================== SCANNING STRINGS (getchar) ===================
@@ -55,5 +55,5 @@ int main(void) {
         i++;
     }
 
-  return 0;
+    return 0;
 }
